@@ -6,8 +6,7 @@ import {
     Paper,
     Grid,
     Card,
-    CardContent,
-    Divider
+    CardContent
 } from '@mui/material';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';

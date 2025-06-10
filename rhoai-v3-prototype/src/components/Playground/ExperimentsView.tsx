@@ -1,6 +1,5 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 import {
-    Box,
     Typography,
     Paper,
     TableContainer,
@@ -117,7 +116,7 @@ export const ExperimentsView: React.FC = () => {
         setSelected([]);
     };
 
-    const handleClick = (event: React.MouseEvent<unknown>, id: string) => {
+    const handleClick = (_event: React.MouseEvent<unknown>, id: string) => {
         const selectedIndex = selected.indexOf(id);
         let newSelected: readonly string[] = [];
 
@@ -180,7 +179,7 @@ export const ExperimentsView: React.FC = () => {
                             return (
                                 <TableRow
                                     hover
-                                    onClick={(event) => handleClick(event, row.id)}
+                                    onClick={(_event) => handleClick(_event, row.id)}
                                     role="checkbox"
                                     aria-checked={isItemSelected}
                                     tabIndex={-1}

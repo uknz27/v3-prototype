@@ -21,7 +21,6 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { LeftPanel } from '../components/Layout/LeftPanel';
 import { MiddlePanel } from '../components/Layout/MiddlePanel';
-import { RightSideMenu } from '../components/Layout/RightSideMenu';
 import { ExperimentsView } from '../components/Playground/ExperimentsView';
 
 const PlaygroundPage: React.FC = () => {
@@ -36,7 +35,7 @@ const PlaygroundPage: React.FC = () => {
 
   const [currentTab, setCurrentTab] = useState(0);
 
-  const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleTabChange = (_event: React.SyntheticEvent, newValue: number) => {
     setCurrentTab(newValue);
   };
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Paper, ToggleButtonGroup, ToggleButton, Tooltip } from '@mui/material';
+import { Paper, ToggleButtonGroup, ToggleButton, Tooltip } from '@mui/material';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import CodeIcon from '@mui/icons-material/Code';
 import { AgenticGraph } from '../Graph/AgenticGraph';
@@ -15,7 +15,7 @@ export const LeftPanel: React.FC<LeftPanelProps> = ({ hoveredNode, onNodeEnter, 
     const [view, setView] = useState('graph');
 
     const handleViewChange = (
-        event: React.MouseEvent<HTMLElement>,
+        _event: React.MouseEvent<HTMLElement>,
         newView: string,
     ) => {
         if (newView !== null) {

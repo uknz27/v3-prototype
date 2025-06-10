@@ -16,7 +16,6 @@ import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import BuildOutlinedIcon from '@mui/icons-material/BuildOutlined';
 import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import CodeIcon from '@mui/icons-material/Code';
 
 const traceEvents = [
     {

@@ -8,7 +8,6 @@ import {
     ListItem, 
     ListItemText, 
     Avatar,
-    Typography,
     useTheme
 } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';

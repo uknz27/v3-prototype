@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 import { CssBaseline } from '@mui/material'
-import { ThemeProvider, createTheme, alpha } from '@mui/material/styles'
+import { ThemeProvider, createTheme } from '@mui/material/styles'
 
 // Define a more M3-inspired theme
 const theme = createTheme({

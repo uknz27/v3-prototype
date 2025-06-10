@@ -9,8 +9,7 @@ import {
   Menu,
   MenuItem,
   ListItemIcon,
-  ListItemText,
-  Chip
+  ListItemText
 } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import NotificationsIcon from '@mui/icons-material/Notifications';
